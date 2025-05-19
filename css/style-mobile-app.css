@@ -21,7 +21,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.9;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #fcfcfd; }
 
 @media (min-width: 1200px) {
   .container {
@@ -129,7 +130,7 @@ ul, ol {
   font-size: 10px; }
 
 .bg-faded {
-  background: #f2f3f7 !important; }
+  background: #fbe6d0 !important; }
 
 .badge {
   font-weight: 400;
@@ -473,11 +474,15 @@ strong, b {
   background: -moz-linear-gradient(left, #404aad, #28a745);
   background: -webkit-linear-gradient(left, #404aad, #28a745); }
 
+/* Fondo claro tipo logo */
 .gradient-light {
-  background: #f2f3f7;
-  background: -webkit-linear-gradient(bottom, #f2f3f7, #f2f3f7);
-  background: -moz-linear-gradient(bottom, #f2f3f7, #f2f3f7);
-  background: -webkit-linear-gradient(bottom, #f2f3f7, #f2f3f7); }
+  background: #fbe6d0 !important;
+  background: -webkit-linear-gradient(bottom, #fbe6d0, #fbe6d0) !important;
+  background: -moz-linear-gradient(bottom, #fbe6d0, #fbe6d0) !important;
+  background: -webkit-linear-gradient(bottom, #fbe6d0, #fbe6d0) !important;
+}
+
+
 
 /**angle backgrounds**/
 .transparent-angle {
@@ -1779,4 +1784,8 @@ table th, table td {
 table th {
     background-color: #28a745;
     color: white;
+}
+/* Fondo para la sección "Nuestra Historia" */
+#features {
+  background-color: #fff5ec !important; /* Tono melocotón claro */
 }
